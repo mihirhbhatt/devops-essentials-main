@@ -1,0 +1,48 @@
+.idea
+.aws-credentials
+.terraform
+*terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.terraform.tfstate.lock.info
+credentials.txt
+.terraform.lock.hcl
+*.tfvars
+*.pem
+
+### docker-compose kitchen
+.data
+hsperfdata_root
+
+### Ignore till reviewd
+to-be-reviewed
+
+
+
+
+### coding-tasks
+
+node_modules
+
+
+### ansible-kitchen
+
+.vagrant
+*.retry
+.venv
+
+# pre and post tasks folders (user defined)
+pre_tasks/
+post_tasks/
+.kitchen/
+.kitchen.local.yml
+.bundle
+
+
+## python
+__pycache__
+
+
+## go
+pkg
+bin
