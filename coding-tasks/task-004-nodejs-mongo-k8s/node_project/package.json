@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "mongoose": "^5.13.22",
     "@snyk/protect": "1.1291.1"
   },
