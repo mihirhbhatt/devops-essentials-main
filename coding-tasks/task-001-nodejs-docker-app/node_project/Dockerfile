@@ -1,4 +1,4 @@
-FROM node:20.13.0-alpine
+FROM node:20.18-alpine
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
